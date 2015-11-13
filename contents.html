@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>Simple Business 001</title>
+<meta name="viewport" content="width=device-width">
+<meta name="auther" content="shigeru1968">
+<meta name="ROBOTS" content="NOINDEX">
+<link href="http://netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script>
+$(function(){
+
+	$("#menubtn").click(function(){
+		$("#navi").slideToggle();
+	});
+
+});
+</script>
+</head>
+<body class="contents">
+<header class="header">
+  <div class="header-inner">
+    <div class="header-title">
+      <div class="site-title">
+        <h1><a href="index.html">Simple Business 001</a></h1>
+      </div>
+    </div>
+    <div class="header-nav">
+      <button type="button" id="menubtn">
+        <i class="fa fa-bars"></i><span>MENU</span>
+      </button>
+      <nav class="navi" id="navi">
+        <ul>
+          <li><a href="index.html">トップ</a></li>
+          <li><a href="contents.html">コンテンツ</a></li>
+          <li><a href="contents.html">コンテンツ</a></li>
+          <li><a href="contents.html">コンテンツ</a></li>
+          <li><a href="contents.html">コンテンツ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+
+<div class="container">
+  <div class="main">
+    <article class="post">
+      <div class="bread">
+        <ol>
+          <li><a href="index.html">トップ</a></li>
+          <li><a href="contents.html">コンテンツ</a></li>
+        </ol>
+      </div>
+      <h1>コンテンツ</h1>
+      <img src="img/header-page.jpg" alt="" class="postimg">
+      <p class="lead">テキストテキストテキストテキスト、テキストテキストテキストテキストテキストテキスト。テキストテキストテキストテキストテキストテキストテキスト、テキストテキストテキスト。</p>
+      <div class="text">
+        <p>テキストテキストテキストテキスト、テキストテキストテキストテキストテキストテキスト。テキストテキストテキストテキストテキストテキストテキスト、テキストテキストテキスト。。</p>
+        <p>テキストテキストテキストテキスト、テキストテキストテキストテキストテキストテキスト。テキストテキストテキストテキストテキストテキストテキスト、テキストテキストテキスト。。</p>
+        <p>テキストテキストテキストテキスト、テキストテキストテキストテキストテキストテキスト。テキストテキストテキストテキストテキストテキストテキスト、テキストテキストテキスト。。</p>
+      </div>
+    </article>
+  </div>
+  <div class="sidebar">
+    <aside class="sidemenu">
+      <h1><i class="fa fa-caret-square-o-down"></i>コンテンツ</h1>
+      <ul>
+        <li><a href="contents.html">コンテンツ１</a></li>
+        <li><a href="contents.html">コンテンツ２</a></li>
+        <li><a href="contents.html">コンテンツ３</a></li>
+        <li><a href="contents.html">コンテンツ４</a></li>
+        <li><a href="contents.html">コンテンツ５</a></li>
+        <li><a href="contents.html">コンテンツ６</a></li>
+      </ul>
+    </aside>
+  </div>
+</div>
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="copyright">
+      <p>Copyright &copy; Shigeru1968</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
