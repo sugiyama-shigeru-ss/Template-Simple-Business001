@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>Simple Business 001</title>
+<meta name="viewport" content="width=device-width">
+<meta name="auther" content="shigeru1968">
+<meta name="ROBOTS" content="NOINDEX">
+<link href="http://netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script>
+$(function(){
+
+	$("#menubtn").click(function(){
+		$("#navi").slideToggle();
+	});
+
+});
+</script>
+</head>
+<body>
+<header class="header">
+  <div class="header-inner">
+    <div class="header-title">
+      <div class="site-title">
+        <h1><a href="index.html">Simple Business 001</a></h1>
+      </div>
+    </div>
+    <div class="header-nav">
+      <button type="button" id="menubtn">
+        <i class="fa fa-bars"></i><span>MENU</span>
+      </button>
+      <nav class="navi" id="navi">
+        <ul>
+          <li><a href="index.html">トップ</a></li>
+          <li><a href="contents.html">沿革</a></li>
+          <li><a href="contents.html">事業紹介</a></li>
+          <li><a href="contents.html">採用情報</a></li>
+          <li><a href="contents.html">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<section class="photo">
+  <div class="top">
+    <img src="img/header.jpg" alt="" class="topimg">
+      <p class="catch">キャッチコピーキャッチコピー<br>
+	キャッチコピーキャッチコピー。</p>
+  </div>
+</section>
+
+
+<section class="pickup">
+  <div class="pickup-1">
+    <div class="exerpt">
+      <a href="contents.html">
+        <i class="fa fa-file-o"></i>
+          <h1>事業内容１</h1>
+          <p>テキストテキストテキスト<br>
+	テキストテキストテキスト。</p>
+      </a>
+    </div>
+  </div>
+  <div class="pickup-2">
+    <div class="exerpt">
+      <a href="contents.html">
+        <i class="fa fa-line-chart"></i>
+          <h1>事業内容２</h1>
+          <p>テキストテキストテキスト<br>
+	テキストテキストテキスト。</p>
+      </a>
+    </div>
+  </div>
+  <div class="pickup-3">
+    <div class="exerpt">
+      <a href="contents.html">
+        <i class="fa fa-truck"></i>
+        <h1>事業内容３</h1>
+          <p>テキストテキストテキスト<br>
+	テキストテキストテキスト。</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<section class="info">
+  <div class="info-main">
+    <div class="news">
+      <h1>お知らせ</h1>
+      <ul>
+        <li><a href="contents.html">
+          <time datetime="2015-10-31">10/31</time>
+          <div class="exerpt">テキストテキストテキストテキストテキスト。</div>
+        </a></li>
+	<li><a href="contents.html">
+          <time datetime="2015-10-24">10/24</time>
+          <div class="exerpt">テキストテキストテキストテキストテキスト。</div>
+        </a></li>
+        <li><a href="contents.html">
+          <time datetime="2015-10-17">10/17</time>
+          <div class="exerpt">テキストテキストテキストテキストテキスト。</div>
+        </a></li>
+        <li><a href="contents.html">
+          <time datetime="2015-10-10">10/10</time>
+          <div class="exerpt">テキストテキストテキストテキストテキスト。</div>
+        </a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="info-sub">
+    <div class="banner-area">
+      <div class="banner">
+      <a href="#"><img src="img/banner-sample.jpg" alt="banner-sample"></a>
+      </div>
+      <div class="banner">
+      <a href="#"><img src="img/banner-sample.jpg" alt="banner-sample"></a>
+      </div><div class="banner">
+      <a href="#"><img src="img/banner-sample.jpg" alt="banner-sample"></a>
+      </div>
+    </div>
+    <div class="follow">
+      <p class="follow-info">最新情報はこちらでも配信。</p>
+      <ul>
+        <li><a href="#" class="follow-tw">
+          <i class="fa fa-fw fa-twitter"></i>
+	<!--Twitter-->
+          </a></li>
+        <li><a href="#" class="follow-fb">
+          <i class="fa fa-fw fa-facebook"></i>
+	<!--Facebook-->
+          </a></li>
+        <li><a href="#" class="follow-gp">
+          <i class="fa fa-fw fa-google-plus"></i>
+	<!--Google+-->
+          </a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="copyright">
+      <p>Copyright &copy; Shigeru1968</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
